@@ -17,7 +17,7 @@ async function search(){
      await cookie2.click();
 
      let search = await driver.findElement(By.xpath("//input[@placeholder='Search']"));
-     await search.sendKeys("PROTRACTOR", Key.RETURN);
+     await search.sendKeys("NOTHING", Key.RETURN);
 
 
      let i = 0;
@@ -29,7 +29,7 @@ async function search(){
         i += 1;
      }
      let results = await driver.findElement(By.xpath("/html[1]/body[1]/aio-shell[1]")).getText();
-     assert (!results.includes("No results found."));
+     assert (results.includes("No results found."));
      driver.quit();
 
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node ./src/angular/browser.js",
     "testDocs": "node ./src/angular/docs.js",
-    "testSearch": "node ./src/angular/search_protractor.js"
+    "testSearchProtractor": "node ./src/angular/search_protractor.js",
+    "testSearchNothing": "node ./src/angular/search_nothing.js"
   },
   "keywords": [],
   "author": "",
