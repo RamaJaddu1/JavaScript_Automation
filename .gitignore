@@ -1,0 +1,7 @@
+node_modules
+cucumber-report.json
+
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf

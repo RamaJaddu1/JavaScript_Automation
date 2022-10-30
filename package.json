@@ -1,0 +1,22 @@
+{
+  "name": "whitespace_tdd_rama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/angular/browser.js",
+    "testDocs": "node ./src/angular/docs.js",
+    "testSearch": "node ./src/angular/search_protractor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^107.0.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
