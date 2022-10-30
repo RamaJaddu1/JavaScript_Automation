@@ -1,0 +1,19 @@
+{
+  "name": "rama_whitespace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^107.0.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
